@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    
+    font-size: 100%;
+    background: linear-gradient( 600deg, rgba(205,81,227,1) 5.5%, rgba(253,195,197,1) 40.6% );
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+.introducao {
+    font-family: 'Sarala', sans-serif;
+    color: rgb(31, 1, 26);
+    font-weight: 500;
+    font-size: 60px;
+}
+.conteudo {
+    margin: 25px;
+    margin-bottom: 48px;
+    border-top: 0.5px solid rgb(85, 1, 71);
+}
+.conteudo-introdutorio {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+.conteudo-introdutorio-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.pergunta-introdutoria {
+    font-family: 'Sarala', sans-serif;
+    color: rgb(31, 1, 26);
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+.subtitulo-introdutorio {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.conteudo-botao {
+    
+    background-color: rgb(29, 1, 25);
+    width: 190px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px  rgb(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #e093e0;
+}
+.conteudo-botao:hover {
+    background-color: rgb(114, 0, 97);
+}
+
+.conteudo-principal {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 24px;
+   margin-top: 48px;
+   
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.conteudo-principal-titulo {
+    border-top: 0.5px solid rgb(85, 1, 71);
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 200;
+    font-size: 24px;
+    color: rgb(31, 1, 26);
+    margin-bottom: 16px;
+}
+.conteudo-principal-subtitulo {
+    font-family:  'Sarala', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.apresentacao {
+    margin-bottom: 48px;
+    border-top: 0.5px solid rgb(85, 1, 71);
+}
+
+.conteudo-apresentacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo-escrito-apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.conteudo-subtitulo-apresentacao {
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 45px;
+    color: rgb(31, 1, 26);
+}
+
+.paragrafo {
+
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(31, 1, 26);
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+
+.imagem-apresentacao {
+    height: 300px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.rodape {
+    margin-bottom: 50px;
+    border-top: 0.5px solid rgb(85, 1, 71);
+}
+
+.contatos-rodape {
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-bottom: 30px; 
+    font-family: 'Righteous', cursive;
+    font-weight: 200;
+    font-size: 30px;
+    color: rgb(31, 1, 26);
+}
+
+.contatos-icones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    padding-bottom: 48px;
+}
+
+.instagram {
+    height: 50px;
+    text-decoration: none;  
+}
+
+.whatsapp {
+    height: 50px;
+    text-decoration: none; 
+}
+
+.facebook {
+    height: 50px;
+    text-decoration: none; 
+}
+
+.youtube {
+    height: 50px;
+    text-decoration: none; 
+}
+
+@media(max-width: 1280px) {
+    section {
+        width: 1000px;
+    }
+}
+
+@media(max-width: 768px) {
+    section {
+        width: 100%;
+    }
+}
+ 
+@media(max-width: 480px) {
+    section {
+        width: 100%;
+    }
+}
+    
