@@ -134,7 +134,7 @@ body {
 
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(31, 1, 26);
     margin-top: 30px;
     margin-left: 20px;
@@ -145,6 +145,7 @@ body {
     height: 300px;
     margin-top: 50px;
     margin-right: 50px;
+    border-radius: 50%;
 }
 
 .rodape {
@@ -191,21 +192,5 @@ body {
     text-decoration: none; 
 }
 
-@media(max-width: 1280px) {
-    section {
-        width: 1000px;
-    }
-}
 
-@media(max-width: 768px) {
-    section {
-        width: 100%;
-    }
-}
- 
-@media(max-width: 480px) {
-    section {
-        width: 100%;
-    }
-}
     
