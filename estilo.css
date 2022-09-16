@@ -33,8 +33,8 @@ body {
 .conteudo-introdutorio {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     
 }
 .conteudo-introdutorio-escrito {
@@ -70,6 +70,7 @@ body {
     font-size: 18px;
     color: #e093e0;
 }
+
 .conteudo-botao:hover {
     background-color: rgb(114, 0, 97);
 }
@@ -90,6 +91,10 @@ body {
 }
 
 .conteudo-principal-titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     border-top: 0.5px solid rgb(85, 1, 71);
     padding-top: 48px;
     font-family: 'Righteous', cursive;
@@ -98,6 +103,7 @@ body {
     color: rgb(31, 1, 26);
     margin-bottom: 16px;
 }
+
 .conteudo-principal-subtitulo {
     font-family:  'Sarala', sans-serif;
     font-weight: 600;
@@ -124,6 +130,10 @@ body {
 }
 
 .conteudo-subtitulo-apresentacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-family: 'Righteous', cursive;
     font-weight: 300;
     font-size: 45px;
