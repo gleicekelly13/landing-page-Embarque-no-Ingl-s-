@@ -54,6 +54,7 @@ body {
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
     font-size: 20px;
+    color: rgb(31, 1, 26);
 }
 
 
@@ -73,6 +74,7 @@ body {
 
 .conteudo-botao:hover {
     background-color: rgb(114, 0, 97);
+    cursor: pointer;
 }
 
 .conteudo-principal {
@@ -108,6 +110,7 @@ body {
     font-family:  'Sarala', sans-serif;
     font-weight: 600;
     font-size: 18px;
+    color: rgb(31, 1, 26);
 }
 
 .apresentacao {
