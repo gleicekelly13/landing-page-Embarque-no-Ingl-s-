@@ -8,6 +8,7 @@
 }
 body {
     
+    max-width: 100%;
     font-size: 100%;
     background: linear-gradient( 600deg, rgba(205,81,227,1) 5.5%, rgba(253,195,197,1) 40.6% );
 }
@@ -43,6 +44,10 @@ body {
     gap: 30px;
 }
 .pergunta-introdutoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: 'Sarala', sans-serif;
     color: rgb(31, 1, 26);
     font-weight: 700;
@@ -70,6 +75,7 @@ body {
     font-weight: 500;
     font-size: 18px;
     color: #e093e0;
+
 }
 
 .conteudo-botao:hover {
@@ -150,7 +156,8 @@ body {
     font-size: 20px;
     color: rgb(31, 1, 26);
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 
@@ -183,11 +190,12 @@ body {
     justify-content: space-around;
     padding: 30px;
     padding-bottom: 48px;
+    
 }
 
 .instagram {
     height: 50px;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 .whatsapp {
