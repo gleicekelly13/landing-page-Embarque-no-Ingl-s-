@@ -57,7 +57,7 @@ body {
 }
 .subtitulo-introdutorio {
     font-family: 'Sarala', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
     color: rgb(31, 1, 26);
 }
@@ -135,7 +135,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    
 }
 
 .conteudo-subtitulo-apresentacao {
@@ -152,7 +152,7 @@ body {
 .paragrafo {
 
     font-family: 'Sarala', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     color: rgb(31, 1, 26);
     margin-top: 30px;
@@ -174,8 +174,11 @@ body {
 }
 
 .contatos-rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 30px;
-    margin-left: 25%;
     margin-bottom: 30px; 
     font-family: 'Righteous', cursive;
     font-weight: 200;
@@ -213,5 +216,51 @@ body {
     text-decoration: none; 
 }
 
+@media screen and (max-width: 1138px) {
+    .conteudo-subtitulo-apresentacao {
+        margin-top: 25px;
+    }
+}
 
-    
+@media screen and (max-width: 965px) {
+    .conteudo-apresentacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .contatos-icones {
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .introducao {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .contatos-icones {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        transform: translate(-100px);
+        height: 50%;
+    }
+
+    .paragrafo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .imagem-apresentacao {
+        transform: translate(25px);
+    }
+
+}
