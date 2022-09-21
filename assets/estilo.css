@@ -106,8 +106,8 @@ body {
     border-top: 0.5px solid rgb(85, 1, 71);
     padding-top: 48px;
     font-family: 'Righteous', cursive;
-    font-weight: 200;
-    font-size: 24px;
+    font-weight: 500;
+    font-size: 30px;
     color: rgb(31, 1, 26);
     margin-bottom: 16px;
 }
@@ -145,7 +145,7 @@ body {
     align-items: center;
     font-family: 'Righteous', cursive;
     font-weight: 300;
-    font-size: 45px;
+    font-size: 40px;
     color: rgb(31, 1, 26);
 }
 
@@ -244,7 +244,13 @@ body {
 
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+        padding: 5px 20px;
+        margin: 0 auto;
+    }
+    
     .contatos-icones {
         display: flex;
         flex-direction: column;
@@ -252,15 +258,17 @@ body {
         transform: translate(-100px);
         height: 50%;
     }
-
+    
     .paragrafo {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
 
+    }
+    
     .imagem-apresentacao {
         transform: translate(25px);
     }
 
 }
+
