@@ -1,4 +1,4 @@
-# landing-page-Embarque-no-Ingl-s-
+# landing-page Embarque no Ingles
 Landing page criada divulgar um curso real de inglês e direcionar os usuários para as respectivas redes sociais referenciadas ao longo da página.
 
 ## :desktop_computer: Desktop design
