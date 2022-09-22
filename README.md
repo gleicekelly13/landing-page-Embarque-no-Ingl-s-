@@ -42,8 +42,8 @@ Landing page criada divulgar um curso real de inglês e direcionar os usuários 
 
 # :sunglasses: Autora
 
-- GitHub - [GleiceKelly](https://https://github.com/gleicekelly13)
-- LinkedIn - [Gleice Kelly Oliveira](https://https://www.linkedin.com/in/gleicekelly13/)
+- GitHub - [GleiceKelly](https://github.com/gleicekelly13)
+- LinkedIn - [Gleice Kelly Oliveira](https://www.linkedin.com/in/gleicekelly13/)
 
 
  
