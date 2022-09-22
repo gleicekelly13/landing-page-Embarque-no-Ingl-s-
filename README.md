@@ -38,9 +38,13 @@ Landing page criada divulgar um curso real de inglês e direcionar os usuários 
 <h2 align="center"> :computer: Tecnologias utilizadas </h2>
 <p>HTML5</p>
 <p>CSS3</p>
+<br>
 
-<h2 align="center"> :heavy_check_mark: Autora</h2>
-<h3>Gleice Kelly</h3>
+# :sunglasses: Autora
+
+- GitHub - [Gleice Kelly](https://https://github.com/gleicekelly13)
+- LinkedIn - [Gleice Kelly Oliveira](https://https://www.linkedin.com/in/gleicekelly13/)
+
 
  
  
