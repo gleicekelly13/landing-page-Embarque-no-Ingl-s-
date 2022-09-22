@@ -1,4 +1,5 @@
-# landing-page Embarque no Inglês
+<h1 align="center">landing-page Embarque no Inglês</h1>
+
 Landing page criada divulgar um curso real de inglês e direcionar os usuários para as respectivas redes sociais referenciadas ao longo da página.
 
 ## :desktop_computer: Desktop design
