@@ -27,7 +27,7 @@ Landing page criada divulgar um curso real de inglês e direcionar os usuários 
 
 <h2 align="center"> :dart: Objetivo de aprendizado/O que aprendi </h2>
 <p>Melhorei meu entendimento com relação a estruturar uma página usando 'header', 'section', 'main', 'footer'.</p>
-<p>Aprimorei na utilização do flex box.</p>
+<p>Aprimorei na utilização do flexbox.</p>
 <p>Continuei praticando meu aprendizado em construir uma página responsiva.</p>
 <br>
 
